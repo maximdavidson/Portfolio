@@ -1,0 +1,141 @@
+@media(max-width: 541px) {
+   .nav_list {
+      display: none;
+   }
+
+   .nav_button {
+      display: block;
+   }
+
+   .nav.open .nav_list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 40px;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #f2f2f2;
+      z-index: 1;
+      padding: 46px 30px;
+      font-size: 34px;
+      font-weight: 600;
+
+   }
+
+   .nav_button {
+      position: absolute;
+      z-index: 2;
+      top: 46px;
+      right: 30px;
+      max-width: 4%;
+   }
+
+   .nav.open .nav_button {
+      position: fixed;
+   }
+
+   .nav_link {
+      color: #000;
+      font-size: 32px;
+   }
+}
+
+@media(max-width: 769px) {
+   .header_title {
+      font-size: 28px;
+      max-width: 500px;
+      padding-bottom: 40px;
+   }
+
+   .header_other-text {
+      font-size: 16px;
+   }
+
+   .header_img {
+      max-width: 60%;
+      padding-left: 50px;
+   }
+}
+
+@media(max-width: 541px) {
+
+   .header_into {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .header_title {
+      font-size: 24px;
+      max-width: 400px;
+      padding-bottom: 20px;
+   }
+
+   .header_other-text {
+      font-size: 14px;
+   }
+
+   .header_img {
+      margin-top: 60px;
+      max-width: 80%;
+      padding-left: 10px;
+   }
+
+   .works {
+      margin-top: 30px;
+   }
+
+   .works_img-wrap {
+      margin-top: 80px;
+   }
+}
+
+@media(max-width: 415px) {
+
+   .container {
+      padding: 0 40px;
+   }
+
+   .logo {
+      font-size: 20px;
+   }
+
+   .header_into {
+      margin-top: 30px;
+   }
+
+   .header_title {
+      font-size: 22px;
+      max-width: 400px;
+      padding-bottom: 20px;
+   }
+
+   .header_other-text {
+      font-size: 12px;
+   }
+
+   .header_into-text {
+      margin-top: 80px;
+   }
+
+   .footer_into {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 70px;
+   }
+
+   .column-title {
+      font-size: 25px;
+      padding-bottom: 30px;
+   }
+
+   .fct-first {
+      max-width: 16px;
+   }
+
+   .email {
+      max-width: 16px;
+   }
+}
