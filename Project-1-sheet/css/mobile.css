@@ -49,15 +49,25 @@
       margin-top: 20vh;
    }
 
-   .info_wrapper {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 200px;
+   .info_greet {
+      font-size: 16px;
+      line-height: 2;
+      padding-bottom: 150px;
    }
 
-   .image {
-      max-width: 90%;
-      margin-bottom: 100px;
+   .game_title {
+      font-family: 'Tektur', cursive;
+      font-size: 58px;
+      padding-bottom: 50px;
+   }
+
+   .dino_img {
+      max-width: 330px;
+   }
+
+   .wrap_text {
+      font-size: 16px;
+      max-width: 350px;
    }
 
    .footer {
