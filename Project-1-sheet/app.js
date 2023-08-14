@@ -1,3 +1,5 @@
+AOS.init();
+
 // menu
 
 const nav = document.querySelector('.nav');
